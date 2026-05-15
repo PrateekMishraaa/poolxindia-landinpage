@@ -71,10 +71,10 @@ const Navbar = () => {
             <motion.a key={item} href="#" whileHover={{ color: '#ef4444', y: -2 }} className="hover:text-red-500 transition-colors">{item}</motion.a>
           ))}
         </div>
-        <motion.button whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}
+        {/* <motion.button whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}
           className="bg-gradient-to-r from-red-600 to-red-500 px-6 py-2 rounded-full font-bold text-white shadow-lg shadow-red-500/25 hover:shadow-red-500/50 transition-all">
           DEPLOY NOW
-        </motion.button>
+        </motion.button> */}
       </div>
     </motion.nav>
   );
